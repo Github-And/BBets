@@ -68,9 +68,19 @@ Using a loop with odds of 4.36 and the amount of 40 teachers, the function was a
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
 
+teacher <- numeric(40)
+for (i in 1:40){
+  teacher[i]=BrLw(numClass =  28)
+  
+  
+  
+}
+favstats(teacher)
+```
 
-
+By modifying the loop to change the amount of students to 28 instead of 35, it was able to reach a mean that is the closest to 0. Changing the amount of students to 29 only made the mean farther away from 0 so that wasn't an option. The only way to get closer to 0 is by adding a decimal to 28, but since we cannot have a fraction of a student attending the class, 28 is the closest we can get.
 
 
 
