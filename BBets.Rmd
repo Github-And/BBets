@@ -41,10 +41,23 @@ The function will be given a class_size by number of students, odds, and Number_
 ## the standard deviation and a 95% confidence interval for their earnings?
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
-
-
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
+```{r}
+
+teacher <- numeric(40)
+for (i in 1:40){
+teacher[i]=BrLw(odds = 4.36)
+
+
+
+}
+favstats(teacher)
+```
+
+
+
+Using a loop with odds of 4.36 and the amount of 40 teachers, the function was able to get to close to a mean of 0 and the standard deviation would hover around 45-56. When increasing the amount of teachers to 200 or 400, the range for the mean and standard deviation would slightly change. 
 
 <!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
