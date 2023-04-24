@@ -104,3 +104,4 @@ By modifying the loop to change the amount of students to 28 instead of 40, it w
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+According to the tests, BrownLow's profits centered on zero when the odds of his bets were around 4.36 in a class of 35 students or if the amount of students in his class is 28 with the odds of 2. With this experiment, we learned that there is more to R than just numerical explained by categorical or categorical explained by numerical. This problem was different than our previous R assignments as we had to do simulated tests to find the correct solution.
